@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin name: Snow Monkey Design Skin HPcode
+ * Plugin name: Snow Monkey Design Skin KosodatePocket
  * Description: Snow Monkey のデザインスキンです。子育てポケット用。
  * Version: 0.1.0
  * Tested up to: 5.6
@@ -30,7 +30,7 @@ add_action(
 				new Updater(
 					plugin_basename( __FILE__ ),
 					'usaribbon', // GitHub user name
-					'snow-monkey-design-skin-kosodatepocket', // GitHub repository name
+					'kosodatepocket', // GitHub repository name
 					[
 						'homepage' => 'https://pocket.chiikihoiku.net/',
 					]
