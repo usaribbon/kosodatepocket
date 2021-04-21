@@ -1,0 +1,371 @@
+h2 {
+  background: #efa336;
+  background: var(--accent-color);
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 0 0 #ccc;
+  color: #fff;
+  letter-spacing: 0.03em;
+  padding: 0.6em 0.8em;
+  position: relative;
+  font-size: 24px;
+}
+
+h2::after {
+  border-color: #fff #fff #e7e7e7;
+  border-radius: 0 0 0 2px;
+  border-style: solid;
+  border-width: 0 16px 16px 0;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: auto;
+  bottom: auto;
+  right: 0;
+}
+
+h3 {
+  border-left: solid #efa336 6px;
+  border-left: solid var(--accent-color) 6px;
+  margin: 3.6em 0 0.8em;
+  padding: 0.4em 0.8em;
+  font-size: 20px;
+}
+
+h4 {
+  border-bottom: solid 2px #efa336;
+  border-bottom: solid 2px var(--accent-color);
+  border-top: solid 2px #efa336;
+  border-top: solid 2px var(--accent-color);
+  display: inline-block;
+  padding: 0.4em 0.8em;
+  font-size: 18px;
+}
+
+h5 {
+  color: #efa336;
+  color: var(--accent-color);
+  font-size: 16px;
+}
+
+h6 {
+  color: #efa336;
+  color: var(--accent-color);
+  font-size: 16px;
+}
+
+pre {
+  padding: 0;
+}
+
+img {
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.16);
+  margin: 8px 0;
+}
+
+table {
+  background: #fff;
+  margin: 1em 0;
+  border: 1px solid #bdbdbd;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  word-break: break-all;
+}
+
+table th,
+table td {
+  border: 1px solid #bdbdbd;
+  padding: 4px 6px;
+  text-align: left;
+  vertical-align: top;
+}
+
+table th {
+  background: #fffacd;
+}
+
+a.btn {
+  text-decoration: none;
+  color: #fff;
+}
+
+table {
+  background: #fff;
+  margin: 1em 0;
+}
+
+p {
+  line-height: 2;
+}
+
+pre {
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  margin-bottom: 1em;
+  border-radius: 0;
+}
+
+pre code {
+  border-radius: 0;
+  margin: 0;
+  font-family: Monaco, monospace, sans-serif;
+  background-color: #2d2d2d;
+}
+
+pre code.hljs {
+  padding: 40px 12px 12px;
+}
+
+pre code.hljs.cli {
+  padding: 2px 12px;
+  position: static;
+}
+
+code {
+  color: #ef5350;
+  line-height: 1.8;
+  font-family: Monaco, monospace, sans-serif;
+}
+
+ul,
+ol {
+  margin-top: 1em;
+}
+
+ul.check {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.check li {
+  position: relative;
+  display: block;
+  padding: 0.4em 0.8em 0.4em 2.4em;
+  text-decoration: none;
+  background: #fff;
+  text-align: left;
+  margin: 0.2em 0;
+  font-weight: 700;
+}
+
+ul.check li::before {
+  position: absolute;
+  top: 50%;
+  left: 0.8em;
+  transform: translateY(-50%);
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free", sans-serif;
+  font-weight: 900;
+  color: #efa336;
+  margin-top: 2px;
+}
+
+.box > :first-child {
+  margin-top: 0;
+}
+
+.box > :last-child {
+  margin-bottom: 0;
+}
+
+img[width="1"] {
+  box-shadow: none;
+}
+
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p {
+  margin-top: 0;
+}
+
+.is-root-container h2 {
+  background: #efa336;
+  background: var(--accent-color);
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 0 0 #ccc;
+  color: #fff;
+  letter-spacing: 0.03em;
+  padding: 0.6em 0.8em;
+  position: relative;
+  font-size: 24px;
+}
+
+.is-root-container h2::after {
+  border-color: #fff #fff #e7e7e7;
+  border-radius: 0 0 0 2px;
+  border-style: solid;
+  border-width: 0 16px 16px 0;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: auto;
+  bottom: auto;
+  right: 0;
+}
+
+.is-root-container h3 {
+  border-left: solid #efa336 6px;
+  border-left: solid var(--accent-color) 6px;
+  margin: 3.6em 0 0.8em;
+  padding: 0.4em 0.8em;
+  font-size: 20px;
+}
+
+.is-root-container h4 {
+  border-bottom: solid 2px #efa336;
+  border-bottom: solid 2px var(--accent-color);
+  border-top: solid 2px #efa336;
+  border-top: solid 2px var(--accent-color);
+  display: inline-block;
+  padding: 0.4em 0.8em;
+  font-size: 18px;
+}
+
+.is-root-container h5 {
+  color: #efa336;
+  color: var(--accent-color);
+  font-size: 16px;
+}
+
+.is-root-container h6 {
+  color: #efa336;
+  color: var(--accent-color);
+  font-size: 16px;
+}
+
+.is-root-container pre {
+  padding: 0;
+}
+
+.is-root-container img {
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.16);
+  margin: 8px 0;
+}
+
+.is-root-container table {
+  background: #fff;
+  margin: 1em 0;
+  border: 1px solid #bdbdbd;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  word-break: break-all;
+}
+
+.is-root-container table th,
+.is-root-container table td {
+  border: 1px solid #bdbdbd;
+  padding: 4px 6px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.is-root-container table th {
+  background: #fffacd;
+}
+
+.is-root-container a.btn {
+  text-decoration: none;
+  color: #fff;
+}
+
+.is-root-container table {
+  background: #fff;
+  margin: 1em 0;
+}
+
+.is-root-container p {
+  line-height: 2;
+}
+
+.is-root-container pre {
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  margin-bottom: 1em;
+  border-radius: 0;
+}
+
+.is-root-container pre code {
+  border-radius: 0;
+  margin: 0;
+  font-family: Monaco, monospace, sans-serif;
+  background-color: #2d2d2d;
+}
+
+.is-root-container pre code.hljs {
+  padding: 40px 12px 12px;
+}
+
+.is-root-container pre code.hljs.cli {
+  padding: 2px 12px;
+  position: static;
+}
+
+.is-root-container code {
+  color: #ef5350;
+  line-height: 1.8;
+  font-family: Monaco, monospace, sans-serif;
+}
+
+.is-root-container ul,
+.is-root-container ol {
+  margin-top: 1em;
+}
+
+.is-root-container ul.check {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.is-root-container ul.check li {
+  position: relative;
+  display: block;
+  padding: 0.4em 0.8em 0.4em 2.4em;
+  text-decoration: none;
+  background: #fff;
+  text-align: left;
+  margin: 0.2em 0;
+  font-weight: 700;
+}
+
+.is-root-container ul.check li::before {
+  position: absolute;
+  top: 50%;
+  left: 0.8em;
+  transform: translateY(-50%);
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free", sans-serif;
+  font-weight: 900;
+  color: #efa336;
+  margin-top: 2px;
+}
+
+.is-root-container .box > :first-child {
+  margin-top: 0;
+}
+
+.is-root-container .box > :last-child {
+  margin-bottom: 0;
+}
+
+.is-root-container img[width="1"] {
+  box-shadow: none;
+}
+
+.is-root-container h2 + p,
+.is-root-container h3 + p,
+.is-root-container h4 + p,
+.is-root-container h5 + p,
+.is-root-container h6 + p {
+  margin-top: 0;
+}
